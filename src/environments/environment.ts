@@ -4,11 +4,10 @@
 
 export const environment = {
   production: false,
-  serviceUrl: 'http://localhost',
-  accountsServicePort: ':8081',
+  serviceUrl: 'http://http://ec2-13-232-130-129.ap-south-1.compute.amazonaws.com',
+  accountsServicePort: ':8083',
   cardsServicePort: ':8082',
-  transactionsServicePort: ':8083',
-	  
+  transactionsServicePort: ':8081',
 };
 
 /*
